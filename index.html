@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>HTMLC</title>
+</head>
+
+<body>
+	<div class="jumbotron">
+		<h1>Contact form</h1> 
+	</div>
+
+	<div class="alert" id="alert">Your message has been sent</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				
+					 <form role="form" id="contactForm">
+				  		<div class="form-group">
+				    		<label for="name">Name/last Name:</label>
+				    		<input type="text" class="form-control" id="Name">
+				  		</div>
+
+				  		<div class="form-group">
+				    		<label for="CIN">CIN:</label>
+				    		<input type="text" class="form-control" id="CIN">
+				  		</div>
+
+				  		<div class="form-group">
+				    		<label for="email">Email address:</label>
+				    		<input type="email" class="form-control" id="email">
+				  		</div>
+				  		
+				  		<div class="form-group">
+						    <label for="pwd">Password:</label>
+						    <input type="password" class="form-control" id="pwd">
+				  		</div>
+				  
+				  		<div class="checkbox">
+				    		<label><input type="checkbox"> Remember me</label>
+				  		</div>
+				  			
+				  			<center> <button type="submit" class="btn btn-default">Submit</button> </center>
+					</form>
+			</div>
+
+			<div class="col-md-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script src="js/contact.js"></script>
+</html>

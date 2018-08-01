@@ -1,0 +1,26 @@
+.jumbotron{
+	height: 400px;
+	background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=863ffeea823f0ffb0885fe1a5e77e645&auto=format&fit=crop&w=1350&q=80');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	font-family: sans-serif;
+	font-weight: 900;
+	color: white !important;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	position: relative;
+	top:70%;
+}
+
+.col-md-6 p{
+	text-align: justify;
+}
+
+.alert{
+  text-align: center; padding:10px; background:#79c879; 
+  color:#fff; margin-bottom:10px; display:none;
+}
